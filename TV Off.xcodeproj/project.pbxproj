@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E10B82C91C3726D9005C58BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E10B82C81C3726D9005C58BC /* main.m */; };
+		E10B82CC1C3726D9005C58BC /* TOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E10B82CB1C3726D9005C58BC /* TOAppDelegate.m */; };
+		E10B82CF1C3726D9005C58BC /* TOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10B82CE1C3726D9005C58BC /* TOViewController.m */; };
+		E10B82D21C3726D9005C58BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10B82D01C3726D9005C58BC /* Main.storyboard */; };
+		E10B82D41C3726D9005C58BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10B82D31C3726D9005C58BC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E10B82C41C3726D9005C58BC /* TV Off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10B82C81C3726D9005C58BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E10B82CA1C3726D9005C58BC /* TOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TOAppDelegate.h; sourceTree = "<group>"; };
+		E10B82CB1C3726D9005C58BC /* TOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOAppDelegate.m; sourceTree = "<group>"; };
+		E10B82CD1C3726D9005C58BC /* TOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TOViewController.h; sourceTree = "<group>"; };
+		E10B82CE1C3726D9005C58BC /* TOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOViewController.m; sourceTree = "<group>"; };
+		E10B82D11C3726D9005C58BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E10B82D31C3726D9005C58BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E10B82D51C3726D9005C58BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E10B82C11C3726D9005C58BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10B82BB1C3726D9005C58BC = {
+			isa = PBXGroup;
+			children = (
+				E10B82C61C3726D9005C58BC /* TV Off */,
+				E10B82C51C3726D9005C58BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10B82C51C3726D9005C58BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E10B82C41C3726D9005C58BC /* TV Off.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E10B82C61C3726D9005C58BC /* TV Off */ = {
+			isa = PBXGroup;
+			children = (
+				E10B82CA1C3726D9005C58BC /* TOAppDelegate.h */,
+				E10B82CB1C3726D9005C58BC /* TOAppDelegate.m */,
+				E10B82CD1C3726D9005C58BC /* TOViewController.h */,
+				E10B82CE1C3726D9005C58BC /* TOViewController.m */,
+				E10B82D01C3726D9005C58BC /* Main.storyboard */,
+				E10B82D31C3726D9005C58BC /* Assets.xcassets */,
+				E10B82D51C3726D9005C58BC /* Info.plist */,
+				E10B82C71C3726D9005C58BC /* Supporting Files */,
+			);
+			path = "TV Off";
+			sourceTree = "<group>";
+		};
+		E10B82C71C3726D9005C58BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E10B82C81C3726D9005C58BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10B82C31C3726D9005C58BC /* TV Off */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10B82D81C3726D9005C58BC /* Build configuration list for PBXNativeTarget "TV Off" */;
+			buildPhases = (
+				E10B82C01C3726D9005C58BC /* Sources */,
+				E10B82C11C3726D9005C58BC /* Frameworks */,
+				E10B82C21C3726D9005C58BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TV Off";
+			productName = "TV Off";
+			productReference = E10B82C41C3726D9005C58BC /* TV Off.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10B82BC1C3726D9005C58BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nicholas Riley";
+				TargetAttributes = {
+					E10B82C31C3726D9005C58BC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CYEL96ZVC2;
+					};
+				};
+			};
+			buildConfigurationList = E10B82BF1C3726D9005C58BC /* Build configuration list for PBXProject "TV Off" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E10B82BB1C3726D9005C58BC;
+			productRefGroup = E10B82C51C3726D9005C58BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10B82C31C3726D9005C58BC /* TV Off */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E10B82C21C3726D9005C58BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10B82D41C3726D9005C58BC /* Assets.xcassets in Resources */,
+				E10B82D21C3726D9005C58BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10B82C01C3726D9005C58BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10B82CF1C3726D9005C58BC /* TOViewController.m in Sources */,
+				E10B82CC1C3726D9005C58BC /* TOAppDelegate.m in Sources */,
+				E10B82C91C3726D9005C58BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E10B82D01C3726D9005C58BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E10B82D11C3726D9005C58BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E10B82D61C3726D9005C58BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		E10B82D71C3726D9005C58BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E10B82D91C3726D9005C58BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TV Off/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sabi.TV-Off";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E10B82DA1C3726D9005C58BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TV Off/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sabi.TV-Off";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E10B82BF1C3726D9005C58BC /* Build configuration list for PBXProject "TV Off" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10B82D61C3726D9005C58BC /* Debug */,
+				E10B82D71C3726D9005C58BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E10B82D81C3726D9005C58BC /* Build configuration list for PBXNativeTarget "TV Off" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10B82D91C3726D9005C58BC /* Debug */,
+				E10B82DA1C3726D9005C58BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E10B82BC1C3726D9005C58BC /* Project object */;
+}
